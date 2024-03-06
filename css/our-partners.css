@@ -1,0 +1,359 @@
+@font-face {
+    src: url("../fonts/circular-std-font-family/CircularStd-Black.ttf") format("truetype");
+    font-family: "circular" ;
+}
+@font-face{
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-family:"poppins" ;
+}    
+:root{
+    --textcolor: rgb(18, 176, 18);
+    --textColor: rgba(240, 248, 255, 1);
+    --fontsize:13px;
+    --margintop:10px;
+    --backgroundcolor:rgba(0, 0, 0, 0.05) ;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Header section */
+.main{
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.first{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.cov{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cov0{
+    justify-content: space-between;
+}
+.pad{
+    padding: 3px;
+}
+.cov-r{
+    color:var(--textcolor);
+}
+.cov-l{
+    color: var(--textColor);
+}
+.lr p{
+    font-size: var(--fontsize);
+}
+.for1 select{
+    background-color: rgba(0, 0, 0, 0);
+    color:  var(--textColor);
+    border: none;
+    font-size: var(--fontsize);
+}
+.plus-gen2 ul{
+    list-style-type: none;
+}
+ul li, .icon2{
+    padding: 10px;
+}
+.icon2 p{
+    font-size: small;
+}
+.list a{
+   color: rgba(0, 0, 0, 0.922);
+   text-decoration: none;
+   color:  var(--textColor);
+}
+.list img {
+    margin-top: -30px;
+   max-width: 80%;
+}
+.plus-gen {
+    justify-content: space-between;
+}
+.alone1 {
+    display: flex;
+}
+.plus-gen0, .core_img{
+    margin-top: 32px;
+}
+.alone1 > li:hover .line{
+   display: block;
+}
+.list li{
+    margin-top: 40px;
+    height: 40px;
+}
+.main0{
+    background-image: url(../images/Rectangle\ 19290.png);
+    height:550px;
+    background-size: cover;
+}
+.home{
+    margin-top: 140px;
+    color:  var(--textColor);
+    z-index: 1;
+}
+.font h2{
+    font-size: 2em;
+}
+.main0::before{
+ content: "";
+ background-color: rgba(0, 0, 0, 0.3);
+ width: 100%;
+ height: 100%;
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+.line {
+    display: none;
+    margin: 5px;
+    width: 30px;
+    height: 5px;
+    background-color: var(--textcolor);
+}
+.hameber{
+    display: none;
+}
+.font2{
+    font-family: "circular";
+    font-weight: normal;
+}
+.font3{
+    font-family: "poppins";
+}
+.align{
+    text-align: center;
+}
+.index, .bg_color{
+    position: relative;
+}
+/* Main and partnership section */
+.marg{
+    margin: 50px 0 30px 0;
+}
+.partner h3{
+    font-size: 3.5em;
+    color: rgb(7, 7, 48);
+    margin: 50px 0 35px 0;
+}
+.index1 h2{
+    font-size: 3em;
+    scale:1.5;
+    position: relative;
+    top: 75px;
+    color: rgba(7, 7, 48, 0.1);
+}
+/* our partners icon section */
+.start {
+    flex-basis: 76%;
+}
+.back_img{
+    background-image: url(../images/Rectangle\ 19291.png);
+    margin-top: 70px;
+}
+.companies img{
+    margin: 40px 0 40px 0;
+}
+.link_a a {
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 40px;
+    color: #0000009e;
+}
+/* Let's connect section */
+.connect_1, .button{
+    margin: 80px 0 80px 0;
+}
+.connect_1{
+    position: relative;
+}
+.connect_1 strong{
+    font-weight: bolder;
+    color: rgb(2, 247, 247);
+}
+.connect_1 h2, .connect_1 h3{
+    color: var( --textColor);
+    font-size: 3em;
+} 
+.button a{
+    text-decoration: none;
+    display: inline-block;
+    background-color:  var(--textColor);
+    border: 2px solid var(--textColor);
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 1;
+}
+.connect_img{
+    background-image: url(../images/Rectangle\ 19294.png);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+}
+.connect_img::before{
+    content: "";
+    background-color:rgba(52, 98, 116, 0.394);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* Footer section */
+.footer{
+    margin: 75px 0 50px 0;
+} 
+.sub_footer{
+    margin-top: 10px;
+}
+.footer0 p{
+    color:rgba(0, 0, 0, 0.4)
+}
+.footer_2 p{
+    margin-top: 15px;
+}
+.log input{
+    margin: 15px 0 15px 0;
+    padding: 15px;
+    border: 3px solid var( --backgroundcolor);
+    background-color:var( --backgroundcolor) ;
+}
+.log a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px;
+    color: var( --textColor);
+    background-color: rgba(0, 0, 0, 0.898);
+   border-radius: 10px;
+}
+.rights p{
+    margin: 30px 0 30px 0;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: small;
+}
+.footer_1 h3{
+    margin-top:30px ;
+}
+@media all and (max-width: 576px) {
+    /* Header section */
+    .alone1 li{
+        display: none;
+    }
+    .block{
+        display: block;
+    }
+    .cov-l img, .cov-l p, .cov-l form{
+        display: inline-block;
+    }
+    .cov-l img{
+        position: relative;
+        top:8px;
+    }
+    .fori img{
+        padding: 15px;
+    }
+    .plus-gen0{
+        flex-basis: 83%;
+        margin-top: 0px;
+    }
+    .plus-gen{
+        display: flex;
+    }
+    .hameber{
+        display: block;
+        flex-basis: 15%;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: x-large;
+        padding: 15px;
+    }
+    .home{
+        margin-top: 50px;
+    }
+    .home strong{
+        font-size: xx-small
+    }
+    .font h1{
+        font-size: large;
+    }
+    .font h2{
+        font-size: large;
+    }
+    .res_p{
+        font-size: xx-small;
+    }
+    .centre{
+        text-align: center;
+    }
+    .res_pad{
+        padding-left: 15px;
+    }
+    .basis{
+        flex-basis: 100%;
+    }
+    .cov0{
+        justify-content: center;
+    }
+    /* Main and partnership section */
+    .marg{
+        margin: 20px 0 15px 0;
+    }
+    .partner h3{
+        font-size: 1.7em;
+        color: rgb(7, 7, 48);
+        margin: 25px 0 18px 0;
+    }
+    .index1 h2{
+        font-size: 1.5em;
+        scale:1.5;
+        position: relative;
+        top: 40px;
+        color: rgba(7, 7, 48, 0.1);
+    }
+    .partner P{
+        font-size: x-small;
+    }
+    /* our partners icon section */
+    .jccent{
+        justify-content: center;
+    }
+    .companies img {
+        max-width: 60%;
+        flex-basis: 100%;
+    }
+    .connect_1, .button{
+        margin: 20px 0 20px 0;
+    }
+    .connect_1 h2, .connect_1 h3{
+        font-size: 1.5em;
+    } 
+    .connect_1, .button{
+        margin-top: 60px;
+    }
+    .button a{
+        margin: 10px 0 10px 0;
+    }
+    .connect_1, .button {
+        margin-top: 30px;
+    }
+    /* Footer section */
+    .footer_2 p{
+        margin-top: 2px;
+    }
+    .sub_footer{
+        justify-content: center;
+        margin-top: 3px;
+    }
+    .sub_footer a {
+        display: block;
+        padding: 10px;
+    }
+}
